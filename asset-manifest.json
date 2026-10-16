@@ -1,0 +1,980 @@
+{
+  "schemaVersion": 1,
+  "lastReviewed": "2026-10-15",
+  "brandRule": "ETERIOMN is the complete wordmark. Do not add a separate emblem, monogram, or symbol. The navigation and footer render editable HTML text; the favicon and social card repeat that same wordmark.",
+  "licenses": {
+    "space-grotesk-ofl-1.1": {
+      "path": "assets/fonts/SpaceGrotesk-OFL.txt",
+      "title": "SIL Open Font License 1.1",
+      "copyright": "Copyright 2020 The Space Grotesk Project Authors",
+      "source": "https://github.com/floriankarsten/space-grotesk"
+    },
+    "inter-ofl-1.1": {
+      "path": "assets/fonts/Inter-OFL.txt",
+      "title": "SIL Open Font License 1.1",
+      "copyright": "Copyright 2020 The Inter Project Authors",
+      "source": "https://github.com/google/fonts/tree/main/ofl/inter"
+    },
+    "ibm-plex-mono-ofl-1.1": {
+      "path": "assets/fonts/IBMPlexMono-OFL.txt",
+      "title": "SIL Open Font License 1.1",
+      "copyright": "Copyright 2017 IBM Corp. with Reserved Font Name Plex",
+      "source": "https://github.com/IBM/plex"
+    }
+  },
+  "assets": [
+    {
+      "id": "eteriomn-wordmark-favicon",
+      "path": "assets/images/brand/eteriomn-wordmark.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Created for this site as an editable text-only SVG; no external source.",
+        "url": null
+      },
+      "creator": "Current ETERIOMN site build; no third-party designer credit recorded.",
+      "license": "Original project asset; site-owner approval required before publication.",
+      "licenseFile": null,
+      "attribution": "ETERIOMN wordmark only. No independent emblem or monogram.",
+      "intendedUse": [
+        "Browser favicon",
+        "Web-app manifest icon"
+      ],
+      "acquiredOn": "2026-10-13",
+      "acquisitionNote": "Created in the current visual-system revision.",
+      "replacementStatus": "Retain unless the owner supplies an approved wordmark treatment. Keep the visible SVG text as ETERIOMN and do not substitute a symbol.",
+      "temporary": false,
+      "temporaryStatus": "Current text-only favicon treatment; small-tab legibility is inherently limited by the wordmark's full name.",
+      "altText": "ETERIOMN wordmark in warm white on the studio's charcoal background.",
+      "dimensions": {
+        "width": 512,
+        "height": 512
+      },
+      "aspectRatio": 1.0
+    },
+    {
+      "id": "eteriomn-social-card-png",
+      "path": "assets/images/brand/eteriomn-social-card.png",
+      "kind": "image",
+      "mimeType": "image/png",
+      "source": {
+        "origin": "Original raster composition exported during the 2026-10-13 visual-system revision from the local hero WebP and local licensed typeface files; the temporary export recipe is not retained as a project script.",
+        "url": null
+      },
+      "creator": "Current ETERIOMN implementation revision; no external designer or imagery credit documented.",
+      "license": "Composite asset. The font notices are included; rights to the inherited hero artwork and owner approval of the final composition remain unverified.",
+      "licenseFile": null,
+      "attribution": "ETERIOMN wordmark and local hero artwork; no external attribution is documented.",
+      "intendedUse": [
+        "Open Graph image",
+        "Twitter/X summary_large_image card",
+        "Social sharing preview for indexable pages"
+      ],
+      "acquiredOn": "2026-10-13",
+      "acquisitionNote": "PNG exported at 1200 × 630 during this revision; editable SVG companion is maintained separately and conversion is not automated.",
+      "replacementStatus": "If the card changes, update this PNG and the editable SVG companion together; the build does not convert them. Keep 1200 × 630 px, check legibility, and update metadata alt text.",
+      "temporary": true,
+      "temporaryStatus": "Provisional until the owner confirms rights for the inherited hero artwork and approves the sharing copy.",
+      "altText": "ETERIOMN wordmark and “The work between fields” beside the local sculptural hero image and studio descriptor.",
+      "dimensions": {
+        "width": 1200,
+        "height": 630
+      },
+      "aspectRatio": 1.9048
+    },
+    {
+      "id": "eteriomn-social-card-source",
+      "path": "assets/images/brand/eteriomn-social-card.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Editable vector layout authored during the 2026-10-13 revision; references only the local hero WebP and self-hosted font files. Maintained beside, but not converted into, the Open Graph PNG.",
+        "url": null
+      },
+      "creator": "Current ETERIOMN implementation revision; no external artwork source documented.",
+      "license": "Composite project asset. Self-hosted fonts carry included OFL notices; hero-art rights and site-owner approval remain unverified.",
+      "licenseFile": null,
+      "attribution": "ETERIOMN wordmark and local hero artwork; no external attribution is documented.",
+      "intendedUse": [
+        "Editable vector companion and layout reference for the social sharing image"
+      ],
+      "acquiredOn": "2026-10-13",
+      "acquisitionNote": "Created in the current design-system revision as an editable SVG source/reference.",
+      "replacementStatus": "Update this SVG and its 1200 × 630 PNG companion together; conversion is not automated in npm build. Preserve editable ETERIOMN wordmark text and same-origin image/font paths.",
+      "temporary": true,
+      "temporaryStatus": "Provisional until the owner confirms rights for the inherited hero artwork and approves the sharing copy.",
+      "altText": "Editable ETERIOMN wordmark, descriptor, and local sculptural hero image for the social-card composition.",
+      "dimensions": {
+        "width": 1200,
+        "height": 630
+      },
+      "aspectRatio": 1.9048
+    },
+    {
+      "id": "space-grotesk-variable",
+      "path": "assets/fonts/SpaceGrotesk-Variable.woff2",
+      "kind": "font",
+      "mimeType": "font/woff2",
+      "source": {
+        "origin": "Official Space Grotesk project repository.",
+        "url": "https://github.com/floriankarsten/space-grotesk"
+      },
+      "creator": "Florian Karsten; Space Grotesk Project Authors.",
+      "license": "SIL Open Font License 1.1; unmodified variable font.",
+      "licenseFile": "assets/fonts/SpaceGrotesk-OFL.txt",
+      "attribution": "Copyright 2020 The Space Grotesk Project Authors. Licensed under SIL OFL 1.1.",
+      "intendedUse": [
+        "Headlines",
+        "ETERIOMN HTML wordmark",
+        "Social-card wordmark"
+      ],
+      "acquiredOn": "2026-10-13",
+      "acquisitionNote": "Downloaded from the official project repository and self-hosted.",
+      "replacementStatus": "Retain unless an equally licensed display family is approved. Update the @font-face declaration and preload in tokens.css and render-site.mjs together.",
+      "temporary": false,
+      "temporaryStatus": "Production-intended licensed webfont; OFL notice is included.",
+      "altText": null,
+      "dimensions": null,
+      "aspectRatio": null
+    },
+    {
+      "id": "inter-variable-latin",
+      "path": "assets/fonts/Inter-Variable-Latin.woff2",
+      "kind": "font",
+      "mimeType": "font/woff2",
+      "source": {
+        "origin": "Google Fonts distribution of the Inter project.",
+        "url": "https://github.com/google/fonts/tree/main/ofl/inter"
+      },
+      "creator": "The Inter Project Authors.",
+      "license": "SIL Open Font License 1.1; unmodified variable font subset.",
+      "licenseFile": "assets/fonts/Inter-OFL.txt",
+      "attribution": "Copyright 2020 The Inter Project Authors. Licensed under SIL OFL 1.1.",
+      "intendedUse": [
+        "Body copy",
+        "Forms",
+        "Interface text"
+      ],
+      "acquiredOn": "2026-10-13",
+      "acquisitionNote": "Self-hosted Latin subset; Albanian ë and ç are included in the Latin block.",
+      "replacementStatus": "Retain or replace with a properly licensed readable sans-serif. Update tokens.css and page font preloads together.",
+      "temporary": false,
+      "temporaryStatus": "Production-intended licensed webfont; OFL notice is included.",
+      "altText": null,
+      "dimensions": null,
+      "aspectRatio": null
+    },
+    {
+      "id": "inter-variable-latin-ext",
+      "path": "assets/fonts/Inter-Variable-LatinExt.woff2",
+      "kind": "font",
+      "mimeType": "font/woff2",
+      "source": {
+        "origin": "Google Fonts distribution of the Inter project.",
+        "url": "https://github.com/google/fonts/tree/main/ofl/inter"
+      },
+      "creator": "The Inter Project Authors.",
+      "license": "SIL Open Font License 1.1; unmodified variable font subset.",
+      "licenseFile": "assets/fonts/Inter-OFL.txt",
+      "attribution": "Copyright 2020 The Inter Project Authors. Licensed under SIL OFL 1.1.",
+      "intendedUse": [
+        "Body copy and interface text requiring Latin Extended glyphs"
+      ],
+      "acquiredOn": "2026-10-13",
+      "acquisitionNote": "Self-hosted Latin Extended subset; loaded only when a page uses glyphs in that range.",
+      "replacementStatus": "Update the unicode-range declaration and font URL together if the subset changes.",
+      "temporary": false,
+      "temporaryStatus": "Production-intended licensed webfont subset; OFL notice is included.",
+      "altText": null,
+      "dimensions": null,
+      "aspectRatio": null
+    },
+    {
+      "id": "ibm-plex-mono-regular-latin",
+      "path": "assets/fonts/IBMPlexMono-Regular-Latin.woff2",
+      "kind": "font",
+      "mimeType": "font/woff2",
+      "source": {
+        "origin": "Google Fonts distribution of IBM Plex Mono.",
+        "url": "https://github.com/google/fonts/tree/main/ofl/ibmplexmono"
+      },
+      "creator": "IBM Corp.",
+      "license": "SIL Open Font License 1.1; unmodified subset.",
+      "licenseFile": "assets/fonts/IBMPlexMono-OFL.txt",
+      "attribution": "Copyright 2017 IBM Corp. with Reserved Font Name Plex. Licensed under SIL OFL 1.1.",
+      "intendedUse": [
+        "Technical labels",
+        "Body monospaced text"
+      ],
+      "acquiredOn": "2026-10-13",
+      "acquisitionNote": "Self-hosted Latin subset.",
+      "replacementStatus": "Keep the 400 weight or update the matching @font-face rule in tokens.css.",
+      "temporary": false,
+      "temporaryStatus": "Production-intended licensed webfont subset; OFL notice is included.",
+      "altText": null,
+      "dimensions": null,
+      "aspectRatio": null
+    },
+    {
+      "id": "ibm-plex-mono-regular-latin-ext",
+      "path": "assets/fonts/IBMPlexMono-Regular-LatinExt.woff2",
+      "kind": "font",
+      "mimeType": "font/woff2",
+      "source": {
+        "origin": "Google Fonts distribution of IBM Plex Mono.",
+        "url": "https://github.com/google/fonts/tree/main/ofl/ibmplexmono"
+      },
+      "creator": "IBM Corp.",
+      "license": "SIL Open Font License 1.1; unmodified subset.",
+      "licenseFile": "assets/fonts/IBMPlexMono-OFL.txt",
+      "attribution": "Copyright 2017 IBM Corp. with Reserved Font Name Plex. Licensed under SIL OFL 1.1.",
+      "intendedUse": [
+        "Technical labels requiring Latin Extended glyphs"
+      ],
+      "acquiredOn": "2026-10-13",
+      "acquisitionNote": "Self-hosted Latin Extended subset.",
+      "replacementStatus": "Update the unicode-range declaration and font URL together if the subset changes.",
+      "temporary": false,
+      "temporaryStatus": "Production-intended licensed webfont subset; OFL notice is included.",
+      "altText": null,
+      "dimensions": null,
+      "aspectRatio": null
+    },
+    {
+      "id": "ibm-plex-mono-medium-latin",
+      "path": "assets/fonts/IBMPlexMono-Medium-Latin.woff2",
+      "kind": "font",
+      "mimeType": "font/woff2",
+      "source": {
+        "origin": "Google Fonts distribution of IBM Plex Mono.",
+        "url": "https://github.com/google/fonts/tree/main/ofl/ibmplexmono"
+      },
+      "creator": "IBM Corp.",
+      "license": "SIL Open Font License 1.1; unmodified subset.",
+      "licenseFile": "assets/fonts/IBMPlexMono-OFL.txt",
+      "attribution": "Copyright 2017 IBM Corp. with Reserved Font Name Plex. Licensed under SIL OFL 1.1.",
+      "intendedUse": [
+        "Navigation and micro-labels",
+        "Preloaded mono face"
+      ],
+      "acquiredOn": "2026-10-13",
+      "acquisitionNote": "Self-hosted Latin subset at weight 500.",
+      "replacementStatus": "Keep the 500 weight or update the matching @font-face rule and preload in tokens.css and render-site.mjs.",
+      "temporary": false,
+      "temporaryStatus": "Production-intended licensed webfont subset; OFL notice is included.",
+      "altText": null,
+      "dimensions": null,
+      "aspectRatio": null
+    },
+    {
+      "id": "ibm-plex-mono-medium-latin-ext",
+      "path": "assets/fonts/IBMPlexMono-Medium-LatinExt.woff2",
+      "kind": "font",
+      "mimeType": "font/woff2",
+      "source": {
+        "origin": "Google Fonts distribution of IBM Plex Mono.",
+        "url": "https://github.com/google/fonts/tree/main/ofl/ibmplexmono"
+      },
+      "creator": "IBM Corp.",
+      "license": "SIL Open Font License 1.1; unmodified subset.",
+      "licenseFile": "assets/fonts/IBMPlexMono-OFL.txt",
+      "attribution": "Copyright 2017 IBM Corp. with Reserved Font Name Plex. Licensed under SIL OFL 1.1.",
+      "intendedUse": [
+        "Technical labels requiring Latin Extended glyphs at weight 500"
+      ],
+      "acquiredOn": "2026-10-13",
+      "acquisitionNote": "Self-hosted Latin Extended subset at weight 500.",
+      "replacementStatus": "Update the unicode-range declaration and font URL together if the subset changes.",
+      "temporary": false,
+      "temporaryStatus": "Production-intended licensed webfont subset; OFL notice is included.",
+      "altText": null,
+      "dimensions": null,
+      "aspectRatio": null
+    },
+    {
+      "id": "homepage-hero-artwork",
+      "path": "assets/images/hero/eteriomn-signal-core.webp",
+      "kind": "image",
+      "mimeType": "image/webp",
+      "source": {
+        "origin": "Inherited AI-generated original artwork stored locally; generation record not retained.",
+        "url": null
+      },
+      "creator": "AI-generated for the inherited ETERIOMN site build; model and session details are not recorded.",
+      "license": "Use is subject to the image-generation platform terms in effect at creation; commercial rights have not been independently verified.",
+      "licenseFile": null,
+      "attribution": "No external creator attribution known; owner must confirm rights and generation terms.",
+      "intendedUse": [
+        "Homepage hero artwork",
+        "Social sharing card composition"
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited asset; exact acquisition/creation date is not recorded.",
+      "replacementStatus": "Replace only with original or properly licensed landscape art. Update the home-page alt text, this record, and both social-card companions if the hero changes.",
+      "temporary": true,
+      "temporaryStatus": "Provisional. Existing project notes identify this as AI-generated, but its model/session, exact creation date, and commercial-use terms are not preserved; owner confirmation is required.",
+      "altText": "An abstract sculptural object of interwoven planes in a dark studio, representing five disciplines converging into one system.",
+      "dimensions": {
+        "width": 1312,
+        "height": 816
+      },
+      "aspectRatio": 1.6078
+    },
+    {
+      "id": "technology-world-illustration",
+      "path": "assets/images/worlds/technology-system.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Original local procedural vector artwork; specific creator record is not preserved.",
+        "url": null
+      },
+      "creator": "Creator not recorded in the inherited workspace; previously described as original procedural artwork.",
+      "license": "No third-party license identified; confirm site-owner rights before commercial publication.",
+      "licenseFile": null,
+      "attribution": "No external attribution documented; this illustration is not a real client product screen.",
+      "intendedUse": [
+        "Legacy alternate Technology vector artwork; not referenced by current page templates."
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited from the initial site build; original creation date is not recorded.",
+      "replacementStatus": "Archived/unreferenced in the current site. Keep only if the owner confirms its origin and rights; otherwise remove it. The live world visual is the matching local WebP in src/data/visuals.js.",
+      "temporary": true,
+      "temporaryStatus": "Legacy vector retained as an unused source asset; creator/source evidence is incomplete and production use is not approved.",
+      "altText": "Decorative Technology-world illustration; repeated across related Technology routes and hidden from assistive technology.",
+      "dimensions": {
+        "width": 900,
+        "height": 650
+      },
+      "aspectRatio": 1.3846
+    },
+    {
+      "id": "creative-world-illustration",
+      "path": "assets/images/worlds/creative-studio.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Original local procedural vector artwork; specific creator record is not preserved.",
+        "url": null
+      },
+      "creator": "Creator not recorded in the inherited workspace; previously described as original procedural artwork.",
+      "license": "No third-party license identified; confirm site-owner rights before commercial publication.",
+      "licenseFile": null,
+      "attribution": "No external attribution documented.",
+      "intendedUse": [
+        "Legacy alternate Creative vector artwork; not referenced by current page templates."
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited from the initial site build; original creation date is not recorded.",
+      "replacementStatus": "Archived/unreferenced in the current site. Keep only if the owner confirms its origin and rights; otherwise remove it. The live world visual is the matching local WebP in src/data/visuals.js.",
+      "temporary": true,
+      "temporaryStatus": "Legacy vector retained as an unused source asset; creator/source evidence is incomplete and production use is not approved.",
+      "altText": "Decorative Creative-world illustration; repeated across related Creative routes and hidden from assistive technology.",
+      "dimensions": {
+        "width": 900,
+        "height": 650
+      },
+      "aspectRatio": 1.3846
+    },
+    {
+      "id": "media-world-illustration",
+      "path": "assets/images/worlds/media-still.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Original local procedural vector artwork; specific creator record is not preserved.",
+        "url": null
+      },
+      "creator": "Creator not recorded in the inherited workspace; previously described as original procedural artwork.",
+      "license": "No third-party license identified; confirm site-owner rights before commercial publication.",
+      "licenseFile": null,
+      "attribution": "No external attribution documented.",
+      "intendedUse": [
+        "Legacy alternate Media vector artwork; not referenced by current page templates."
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited from the initial site build; original creation date is not recorded.",
+      "replacementStatus": "Archived/unreferenced in the current site. Keep only if the owner confirms its origin and rights; otherwise remove it. The live world visual is the matching local WebP in src/data/visuals.js.",
+      "temporary": true,
+      "temporaryStatus": "Legacy vector retained as an unused source asset; creator/source evidence is incomplete and production use is not approved.",
+      "altText": "Decorative Media-world illustration; repeated across related Media routes and hidden from assistive technology.",
+      "dimensions": {
+        "width": 900,
+        "height": 650
+      },
+      "aspectRatio": 1.3846
+    },
+    {
+      "id": "marketing-world-illustration",
+      "path": "assets/images/worlds/marketing-map.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Original local procedural vector artwork; specific creator record is not preserved.",
+        "url": null
+      },
+      "creator": "Creator not recorded in the inherited workspace; previously described as original procedural artwork.",
+      "license": "No third-party license identified; confirm site-owner rights before commercial publication.",
+      "licenseFile": null,
+      "attribution": "No external attribution documented; graphic is an illustration, not a results dashboard.",
+      "intendedUse": [
+        "Legacy alternate Marketing vector artwork; not referenced by current page templates."
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited from the initial site build; original creation date is not recorded.",
+      "replacementStatus": "Archived/unreferenced in the current site. Keep only if the owner confirms its origin and rights; otherwise remove it. The live world visual is the matching local WebP in src/data/visuals.js.",
+      "temporary": true,
+      "temporaryStatus": "Legacy vector retained as an unused source asset; creator/source evidence is incomplete and production use is not approved.",
+      "altText": "Decorative Marketing-world illustration; repeated across related Marketing routes and hidden from assistive technology.",
+      "dimensions": {
+        "width": 900,
+        "height": 650
+      },
+      "aspectRatio": 1.3846
+    },
+    {
+      "id": "legal-world-illustration",
+      "path": "assets/images/worlds/legal-index.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Original local procedural vector artwork; specific creator record is not preserved.",
+        "url": null
+      },
+      "creator": "Creator not recorded in the inherited workspace; previously described as original procedural artwork.",
+      "license": "No third-party license identified; confirm site-owner rights before commercial publication.",
+      "licenseFile": null,
+      "attribution": "No external attribution documented; does not imply law-firm status or legal credentials.",
+      "intendedUse": [
+        "Legacy alternate Legal vector artwork; not referenced by current page templates."
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited from the initial site build; original creation date is not recorded.",
+      "replacementStatus": "Archived/unreferenced in the current site. Keep only if the owner confirms its origin and rights; otherwise remove it. The live world visual is the matching local WebP in src/data/visuals.js.",
+      "temporary": true,
+      "temporaryStatus": "Legacy vector retained as an unused source asset; creator/source evidence is incomplete and production use is not approved.",
+      "altText": "Decorative Legal Support-world illustration; repeated across related Legal Support routes and hidden from assistive technology.",
+      "dimensions": {
+        "width": 900,
+        "height": 650
+      },
+      "aspectRatio": 1.3846
+    },
+    {
+      "id": "lab-signal-field-static-fallback",
+      "path": "assets/images/lab/signal-field.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Original local procedural SVG; specific creator record is not preserved.",
+        "url": null
+      },
+      "creator": "Creator not recorded in the inherited workspace; previously described as original procedural artwork.",
+      "license": "No third-party license identified; confirm site-owner rights before commercial publication.",
+      "licenseFile": null,
+      "attribution": "No external attribution documented.",
+      "intendedUse": [
+        "Home page Lab teaser",
+        "Static fallback for the optional Canvas experiment"
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited from the initial site build; original creation date is not recorded.",
+      "replacementStatus": "Update lab in src/data/visuals.js. Always retain a static fallback if the pointer-responsive canvas remains.",
+      "temporary": true,
+      "temporaryStatus": "Working original procedural study pending owner rights confirmation.",
+      "altText": "Decorative static contour-field composition; content is also explained in nearby text and the image is hidden from assistive technology.",
+      "dimensions": {
+        "width": 900,
+        "height": 620
+      },
+      "aspectRatio": 1.4516
+    },
+    {
+      "id": "nocturne-concept-image",
+      "path": "assets/images/work/nocturne-sound-study.webp",
+      "kind": "image",
+      "mimeType": "image/webp",
+      "source": {
+        "origin": "Inherited AI-generated original concept artwork stored locally; generation record not retained.",
+        "url": null
+      },
+      "creator": "AI-generated for the inherited ETERIOMN concept study; model and session details are not recorded.",
+      "license": "Use is subject to the image-generation platform terms in effect at creation; commercial rights have not been independently verified.",
+      "licenseFile": null,
+      "attribution": "No external creator attribution known; the Nocturne project is explicitly fictional and not client work.",
+      "intendedUse": [
+        "Nocturne project card",
+        "Nocturne concept-study feature image"
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited asset; exact acquisition/creation date is not recorded.",
+      "replacementStatus": "Replace only with an original or properly licensed media-focused image; update alt text, dimensions, and project data together.",
+      "temporary": true,
+      "temporaryStatus": "Provisional until the owner confirms image-generation rights and terms.",
+      "altText": "A graphite disc crossed by a brushed-silver ribbon, composed as a quiet study of sound.",
+      "dimensions": {
+        "width": 1584,
+        "height": 672
+      },
+      "aspectRatio": 2.3571
+    },
+    {
+      "id": "nocturne-editorial-gallery",
+      "path": "assets/images/work/nocturne-editorial.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Original local procedural vector; individual creator record is not preserved.",
+        "url": null
+      },
+      "creator": "Creator not recorded in the inherited workspace; previously described as original concept-study artwork.",
+      "license": "No third-party license identified; confirm site-owner rights before commercial publication.",
+      "licenseFile": null,
+      "attribution": "Original fictional concept artwork; not a representation of a real music service or client.",
+      "intendedUse": [
+        "Legacy fictional concept-study vector; not referenced by the current route templates."
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited from the initial site build; original creation date is not recorded.",
+      "replacementStatus": "Archived/unreferenced. Confirm source and rights before reuse; otherwise remove. Current case pages use the distinct image in src/data/projects.js.",
+      "temporary": true,
+      "temporaryStatus": "Legacy concept artwork not used by the live site; provenance and rights review remain open.",
+      "altText": "An original editorial interface and concentric sound study for the fictional Nocturne concept.",
+      "dimensions": {
+        "width": 1200,
+        "height": 760
+      },
+      "aspectRatio": 1.5789
+    },
+    {
+      "id": "signal-house-concept-image",
+      "path": "assets/images/work/signal-house.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Original local procedural vector; individual creator record is not preserved.",
+        "url": null
+      },
+      "creator": "Creator not recorded in the inherited workspace; previously described as original concept-study artwork.",
+      "license": "No third-party license identified; confirm site-owner rights before commercial publication.",
+      "licenseFile": null,
+      "attribution": "Illustrative fictional interface; not real product data or client work.",
+      "intendedUse": [
+        "Legacy fictional concept-study vector; not referenced by the current route templates."
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited from the initial site build; original creation date is not recorded.",
+      "replacementStatus": "Archived/unreferenced. Confirm source and rights before reuse; otherwise remove. Current case pages use the distinct image in src/data/projects.js.",
+      "temporary": true,
+      "temporaryStatus": "Legacy concept artwork not used by the live site; provenance and rights review remain open.",
+      "altText": "An original abstract diagram of connected panels gathered around a central point.",
+      "dimensions": {
+        "width": 1200,
+        "height": 760
+      },
+      "aspectRatio": 1.5789
+    },
+    {
+      "id": "signal-house-gallery",
+      "path": "assets/images/work/signal-house-detail.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Original local procedural vector; individual creator record is not preserved.",
+        "url": null
+      },
+      "creator": "Creator not recorded in the inherited workspace; previously described as original concept-study artwork.",
+      "license": "No third-party license identified; confirm site-owner rights before commercial publication.",
+      "licenseFile": null,
+      "attribution": "Illustrative relationship map for a fictional concept; not client work.",
+      "intendedUse": [
+        "Legacy fictional concept-study vector; not referenced by the current route templates."
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited from the initial site build; original creation date is not recorded.",
+      "replacementStatus": "Archived/unreferenced. Confirm source and rights before reuse; otherwise remove. Current case pages use the distinct image in src/data/projects.js.",
+      "temporary": true,
+      "temporaryStatus": "Legacy concept artwork not used by the live site; provenance and rights review remain open.",
+      "altText": "An abstract relationship map created for the speculative Signal House product concept.",
+      "dimensions": {
+        "width": 1200,
+        "height": 720
+      },
+      "aspectRatio": 1.6667
+    },
+    {
+      "id": "object-study-concept-image",
+      "path": "assets/images/work/object-study.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Original local procedural vector; individual creator record is not preserved.",
+        "url": null
+      },
+      "creator": "Creator not recorded in the inherited workspace; previously described as original concept-study artwork.",
+      "license": "No third-party license identified; confirm site-owner rights before commercial publication.",
+      "licenseFile": null,
+      "attribution": "Original fictional product-visualization study; not a real product or client commission.",
+      "intendedUse": [
+        "Legacy fictional concept-study vector; not referenced by the current route templates."
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited from the initial site build; original creation date is not recorded.",
+      "replacementStatus": "Archived/unreferenced. Confirm source and rights before reuse; otherwise remove. Current case pages use the distinct image in src/data/projects.js.",
+      "temporary": true,
+      "temporaryStatus": "Legacy concept artwork not used by the live site; provenance and rights review remain open.",
+      "altText": "A sculptural geometric object arranged in a warm, minimal studio composition.",
+      "dimensions": {
+        "width": 1200,
+        "height": 760
+      },
+      "aspectRatio": 1.5789
+    },
+    {
+      "id": "object-study-gallery",
+      "path": "assets/images/work/object-study-detail.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Original local procedural vector; individual creator record is not preserved.",
+        "url": null
+      },
+      "creator": "Creator not recorded in the inherited workspace; previously described as original concept-study artwork.",
+      "license": "No third-party license identified; confirm site-owner rights before commercial publication.",
+      "licenseFile": null,
+      "attribution": "Original technical-style visual for a fictional concept; not client work.",
+      "intendedUse": [
+        "Legacy fictional concept-study vector; not referenced by the current route templates."
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Inherited from the initial site build; original creation date is not recorded.",
+      "replacementStatus": "Archived/unreferenced. Confirm source and rights before reuse; otherwise remove. Current case pages use the distinct image in src/data/projects.js.",
+      "temporary": true,
+      "temporaryStatus": "Legacy concept artwork not used by the live site; provenance and rights review remain open.",
+      "altText": "An original technical-style study of planes and edges in the fictional object concept.",
+      "dimensions": {
+        "width": 1200,
+        "height": 720
+      },
+      "aspectRatio": 1.6667
+    },
+    {
+      "id": "technology-world-webp",
+      "path": "assets/images/worlds/technology-system.webp",
+      "kind": "image",
+      "mimeType": "image/webp",
+      "source": {
+        "origin": "Local photo-style WebP present in the workspace; the original source, creator, and generation record are not preserved in the project.",
+        "url": null
+      },
+      "creator": "Not recorded in the workspace.",
+      "license": "Source and license are unverified. Treat as provisional and do not use commercially until the owner confirms rights or replaces the image.",
+      "licenseFile": null,
+      "attribution": "No external source or creator attribution is documented. Atmospheric category art only; not client work or campaign evidence.",
+      "intendedUse": [
+        "Homepage Technology world row",
+        "Services index Technology section"
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Present in the inherited/local asset set; exact creation or acquisition date and source are unknown.",
+      "replacementStatus": "Confirm the source and rights or replace with original/authorized Technology art. Update src/data/visuals.js, page dimensions, adjacent alt/decorative treatment, and this record together.",
+      "temporary": true,
+      "temporaryStatus": "Rights/provenance review required; not identified as client work and not used for service-result claims.",
+      "altText": "Decorative Technology visual; the adjacent heading and copy provide the same category context; HTML uses empty alt text.",
+      "dimensions": {
+        "width": 1264,
+        "height": 848
+      },
+      "aspectRatio": 1.4906
+    },
+    {
+      "id": "creative-world-webp",
+      "path": "assets/images/worlds/creative-studio.webp",
+      "kind": "image",
+      "mimeType": "image/webp",
+      "source": {
+        "origin": "Local photo-style WebP present in the workspace; the original source, creator, and generation record are not preserved in the project.",
+        "url": null
+      },
+      "creator": "Not recorded in the workspace.",
+      "license": "Source and license are unverified. Treat as provisional and do not use commercially until the owner confirms rights or replaces the image.",
+      "licenseFile": null,
+      "attribution": "No external source or creator attribution is documented. Atmospheric category art only; not client work or campaign evidence.",
+      "intendedUse": [
+        "Homepage Creative world row",
+        "Services index Creative section"
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Present in the inherited/local asset set; exact creation or acquisition date and source are unknown.",
+      "replacementStatus": "Confirm the source and rights or replace with original/authorized Creative art. Update src/data/visuals.js, page dimensions, adjacent alt/decorative treatment, and this record together.",
+      "temporary": true,
+      "temporaryStatus": "Rights/provenance review required; not identified as client work and not used for service-result claims.",
+      "altText": "Decorative Creative visual; the adjacent heading and copy provide the same category context; HTML uses empty alt text.",
+      "dimensions": {
+        "width": 1376,
+        "height": 768
+      },
+      "aspectRatio": 1.7917
+    },
+    {
+      "id": "media-world-webp",
+      "path": "assets/images/worlds/media-still.webp",
+      "kind": "image",
+      "mimeType": "image/webp",
+      "source": {
+        "origin": "Local photo-style WebP present in the workspace; the original source, creator, and generation record are not preserved in the project.",
+        "url": null
+      },
+      "creator": "Not recorded in the workspace.",
+      "license": "Source and license are unverified. Treat as provisional and do not use commercially until the owner confirms rights or replaces the image.",
+      "licenseFile": null,
+      "attribution": "No external source or creator attribution is documented. Atmospheric category art only; not client work or campaign evidence.",
+      "intendedUse": [
+        "Homepage Media world row",
+        "Services index Media section"
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Present in the inherited/local asset set; exact creation or acquisition date and source are unknown.",
+      "replacementStatus": "Confirm the source and rights or replace with original/authorized Media art. Update src/data/visuals.js, page dimensions, adjacent alt/decorative treatment, and this record together.",
+      "temporary": true,
+      "temporaryStatus": "Rights/provenance review required; not identified as client work and not used for service-result claims.",
+      "altText": "Decorative Media visual; the adjacent heading and copy provide the same category context; HTML uses empty alt text.",
+      "dimensions": {
+        "width": 1584,
+        "height": 672
+      },
+      "aspectRatio": 2.3571
+    },
+    {
+      "id": "marketing-world-webp",
+      "path": "assets/images/worlds/marketing-map.webp",
+      "kind": "image",
+      "mimeType": "image/webp",
+      "source": {
+        "origin": "Local photo-style WebP present in the workspace; the original source, creator, and generation record are not preserved in the project.",
+        "url": null
+      },
+      "creator": "Not recorded in the workspace.",
+      "license": "Source and license are unverified. Treat as provisional and do not use commercially until the owner confirms rights or replaces the image.",
+      "licenseFile": null,
+      "attribution": "No external source or creator attribution is documented. Atmospheric category art only; not client work or campaign evidence.",
+      "intendedUse": [
+        "Homepage Marketing world row",
+        "Services index Marketing section"
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Present in the inherited/local asset set; exact creation or acquisition date and source are unknown.",
+      "replacementStatus": "Confirm the source and rights or replace with original/authorized Marketing art. Update src/data/visuals.js, page dimensions, adjacent alt/decorative treatment, and this record together.",
+      "temporary": true,
+      "temporaryStatus": "Rights/provenance review required; not identified as client work and not used for service-result claims.",
+      "altText": "Decorative Marketing visual; the adjacent heading and copy provide the same category context; HTML uses empty alt text.",
+      "dimensions": {
+        "width": 1408,
+        "height": 768
+      },
+      "aspectRatio": 1.8333
+    },
+    {
+      "id": "legal-world-webp",
+      "path": "assets/images/worlds/legal-index.webp",
+      "kind": "image",
+      "mimeType": "image/webp",
+      "source": {
+        "origin": "Local photo-style WebP present in the workspace; the original source, creator, and generation record are not preserved in the project.",
+        "url": null
+      },
+      "creator": "Not recorded in the workspace.",
+      "license": "Source and license are unverified. Treat as provisional and do not use commercially until the owner confirms rights or replaces the image.",
+      "licenseFile": null,
+      "attribution": "No external source or creator attribution is documented. Atmospheric category art only; not client work or campaign evidence.",
+      "intendedUse": [
+        "Homepage Legal Support world row",
+        "Services index Legal Support section"
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Present in the inherited/local asset set; exact creation or acquisition date and source are unknown.",
+      "replacementStatus": "Confirm the source and rights or replace with original/authorized Legal Support art. Update src/data/visuals.js, page dimensions, adjacent alt/decorative treatment, and this record together.",
+      "temporary": true,
+      "temporaryStatus": "Rights/provenance review required; not identified as client work and not used for service-result claims.",
+      "altText": "Decorative Legal Support visual; the adjacent heading and copy provide the same category context; HTML uses empty alt text.",
+      "dimensions": {
+        "width": 1408,
+        "height": 768
+      },
+      "aspectRatio": 1.8333
+    },
+    {
+      "id": "signal-house-study-webp",
+      "path": "assets/images/work/signal-house-study.webp",
+      "kind": "image",
+      "mimeType": "image/webp",
+      "source": {
+        "origin": "Local concept-study WebP present in the workspace; Original source and creator/generation record are not preserved.",
+        "url": null
+      },
+      "creator": "Not recorded in the workspace.",
+      "license": "Source and license are unverified. Treat as provisional and do not use commercially until the owner confirms rights or replaces the image.",
+      "licenseFile": null,
+      "attribution": "No external source or creator attribution is documented. The associated Signal House study is explicitly fictional and is not client work.",
+      "intendedUse": [
+        "Signal House concept card",
+        "Signal House fictional case-study feature image"
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Present in the inherited/local asset set; exact creation or acquisition date and source are unknown.",
+      "replacementStatus": "Confirm rights or replace with original/authorized imagery. Update src/data/projects.js, alt text, dimensions, and this record; keep the concept explicitly labeled fictional.",
+      "temporary": true,
+      "temporaryStatus": "Provenance and rights review required; the associated project route is clearly labeled speculative.",
+      "altText": "Translucent paper planes and charcoal modules connected around an amber point in a tabletop study.",
+      "dimensions": {
+        "width": 1408,
+        "height": 768
+      },
+      "aspectRatio": 1.8333
+    },
+    {
+      "id": "object-study-03-study-webp",
+      "path": "assets/images/work/object-study-03.webp",
+      "kind": "image",
+      "mimeType": "image/webp",
+      "source": {
+        "origin": "Local concept-study WebP present in the workspace; Original source and creator/generation record are not preserved.",
+        "url": null
+      },
+      "creator": "Not recorded in the workspace.",
+      "license": "Source and license are unverified. Treat as provisional and do not use commercially until the owner confirms rights or replaces the image.",
+      "licenseFile": null,
+      "attribution": "No external source or creator attribution is documented. The associated Object Study 03 study is explicitly fictional and is not client work.",
+      "intendedUse": [
+        "Object Study 03 concept card",
+        "Object Study 03 fictional case-study feature image"
+      ],
+      "acquiredOn": null,
+      "acquisitionNote": "Present in the inherited/local asset set; exact creation or acquisition date and source are unknown.",
+      "replacementStatus": "Confirm rights or replace with original/authorized imagery. Update src/data/projects.js, alt text, dimensions, and this record; keep the concept explicitly labeled fictional.",
+      "temporary": true,
+      "temporaryStatus": "Provenance and rights review required; the associated project route is clearly labeled speculative.",
+      "altText": "A dark ceramic sculptural object against warm stone in a charcoal studio.",
+      "dimensions": {
+        "width": 1376,
+        "height": 768
+      },
+      "aspectRatio": 1.7917
+    },
+    {
+      "id": "service-art-atlas-svg",
+      "path": "assets/images/services/service-atlas.svg",
+      "kind": "image",
+      "mimeType": "image/svg+xml",
+      "source": {
+        "origin": "Generated locally by scripts/build.mjs from the 34 service-specific vector definitions in src/data/service-illustrations.js; no external image or library is used.",
+        "url": null
+      },
+      "creator": "Original procedural vector definitions maintained in this project; no third-party creator is credited.",
+      "license": "Original project artwork; confirm site-owner rights before publication. No third-party artwork is known to be embedded.",
+      "licenseFile": null,
+      "attribution": "Service-specific illustrative diagrams; not screenshots, logos, client work, or performance claims.",
+      "intendedUse": [
+        "Service page hero artwork for the 34 confirmed service routes"
+      ],
+      "acquiredOn": "2026-10-13",
+      "acquisitionNote": "Generated by the static build from repository source definitions; the SVG output is a build artifact.",
+      "replacementStatus": "Do not edit the generated SVG directly. Edit src/data/service-illustrations.js, preserve 34 unique symbols and accurate service descriptions, then run npm run build.",
+      "temporary": false,
+      "temporaryStatus": "Build-generated local vector atlas; route-specific SVG titles and descriptions are provided by each service page.",
+      "altText": "Sprite containing 34 individual procedural service diagrams; each rendered route supplies its own accessible title and description.",
+      "dimensions": {
+        "width": 620,
+        "height": 440
+      },
+      "aspectRatio": 1.4091
+    },
+    {
+      "id": "beyond-outpost-world-01-illustrative-webp",
+      "path": "assets/images/collaborations/beyond-outpost-world-01.webp",
+      "kind": "image",
+      "mimeType": "image/webp",
+      "source": {
+        "origin": "Created for this site with Arena.ai's image-generation tool on 2026-10-15; no reference or external game artwork was supplied or reused. Model/version identifier and original prompt record are not retained in the repository.",
+        "url": null
+      },
+      "creator": "ETERIOMN site implementation; AI-generated via Arena.ai image generation. Individual model/version and operator attribution are not recorded in the asset metadata.",
+      "license": "AI-output terms and ownership are not confirmed in the repository. Treat as provisional illustrative website artwork until the site owner confirms the generation tool terms and approves publication. Not represented as official Beyond Outpost artwork.",
+      "licenseFile": null,
+      "attribution": "Original illustrative pixel-art concept made for this website; not official Beyond Outpost art, a gameplay screenshot, or a confirmed game asset.",
+      "intendedUse": [
+        "Homepage collaboration feature",
+        "Spotlipse collaboration page hero",
+        "Page-specific Open Graph/Twitter preview"
+      ],
+      "acquiredOn": "2026-10-15",
+      "acquisitionNote": "Generated as an original illustrative concept with Arena.ai image generation; optimized from PNG to WebP at quality 92, method 6. The generation model/version and source prompt are not retained.",
+      "replacementStatus": "If authorized official project artwork becomes available, use it only after written permission/usage terms are recorded. Update src/data/collaboration.js, the relevant page content and metadata, dimensions, alt text, and this record together. Keep the illustrative disclaimer if this asset remains.",
+      "temporary": true,
+      "temporaryStatus": "Illustrative concept only; not official game artwork. Generation-tool rights and site-owner publication approval still require confirmation.",
+      "altText": "Pixel-art study of a lunar research settlement beneath a broad crater rim at dusk.",
+      "dimensions": {
+        "width": 1376,
+        "height": 768
+      },
+      "aspectRatio": 1.7917
+    },
+    {
+      "id": "beyond-outpost-world-02-illustrative-webp",
+      "path": "assets/images/collaborations/beyond-outpost-world-02.webp",
+      "kind": "image",
+      "mimeType": "image/webp",
+      "source": {
+        "origin": "Created for this site with Arena.ai's image-generation tool on 2026-10-15; no reference or external game artwork was supplied or reused. Model/version identifier and original prompt record are not retained in the repository.",
+        "url": null
+      },
+      "creator": "ETERIOMN site implementation; AI-generated via Arena.ai image generation. Individual model/version and operator attribution are not recorded in the asset metadata.",
+      "license": "AI-output terms and ownership are not confirmed in the repository. Treat as provisional illustrative website artwork until the site owner confirms the generation tool terms and approves publication. Not represented as official Beyond Outpost artwork.",
+      "licenseFile": null,
+      "attribution": "Original illustrative pixel-art concept made for this website; not official Beyond Outpost art, a gameplay screenshot, or a confirmed game asset.",
+      "intendedUse": [
+        "Spotlipse collaboration page visual-exploration gallery",
+        "Game Development service-page collaboration panel"
+      ],
+      "acquiredOn": "2026-10-15",
+      "acquisitionNote": "Generated as an original illustrative concept with Arena.ai image generation; optimized from PNG to WebP at quality 92, method 6. The generation model/version and source prompt are not retained.",
+      "replacementStatus": "If authorized official project artwork becomes available, use it only after written permission/usage terms are recorded. Update src/data/collaboration.js, the relevant page content, dimensions, alt text, and this record together. Keep the illustrative disclaimer if this asset remains.",
+      "temporary": true,
+      "temporaryStatus": "Illustrative concept only; not official game artwork. Generation-tool rights and site-owner publication approval still require confirmation.",
+      "altText": "Pixel-art study of an early Mars habitat at first light, with solar panels and a rover path leading toward a copper-red basin.",
+      "dimensions": {
+        "width": 928,
+        "height": 1152
+      },
+      "aspectRatio": 0.8056
+    },
+    {
+      "id": "beyond-outpost-world-03-illustrative-webp",
+      "path": "assets/images/collaborations/beyond-outpost-world-03.webp",
+      "kind": "image",
+      "mimeType": "image/webp",
+      "source": {
+        "origin": "Created for this site with Arena.ai's image-generation tool on 2026-10-15; no reference or external game artwork was supplied or reused. Model/version identifier and original prompt record are not retained in the repository.",
+        "url": null
+      },
+      "creator": "ETERIOMN site implementation; AI-generated via Arena.ai image generation. Individual model/version and operator attribution are not recorded in the asset metadata.",
+      "license": "AI-output terms and ownership are not confirmed in the repository. Treat as provisional illustrative website artwork until the site owner confirms the generation tool terms and approves publication. Not represented as official Beyond Outpost artwork.",
+      "licenseFile": null,
+      "attribution": "Original illustrative pixel-art concept made for this website; not official Beyond Outpost art, a gameplay screenshot, or a confirmed game asset.",
+      "intendedUse": [
+        "Spotlipse collaboration page visual-exploration gallery"
+      ],
+      "acquiredOn": "2026-10-15",
+      "acquisitionNote": "Generated as an original illustrative concept with Arena.ai image generation; optimized from PNG to WebP at quality 92, method 6. The generation model/version and source prompt are not retained.",
+      "replacementStatus": "If authorized official project artwork becomes available, use it only after written permission/usage terms are recorded. Update src/data/collaboration.js, the relevant page content, dimensions, alt text, and this record together. Keep the illustrative disclaimer if this asset remains.",
+      "temporary": true,
+      "temporaryStatus": "Illustrative concept only; not official game artwork. Generation-tool rights and site-owner publication approval still require confirmation.",
+      "altText": "Pixel-art study of a small cargo lander beside a fractured lunar crater rim at twilight.",
+      "dimensions": {
+        "width": 1264,
+        "height": 848
+      },
+      "aspectRatio": 1.4906
+    }
+  ]
+}

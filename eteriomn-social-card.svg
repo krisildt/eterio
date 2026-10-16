@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ETERIOMN — The work between fields</title>
+  <desc id="desc">The ETERIOMN wordmark and studio positioning sit beside the local sculptural hero image in charcoal, ivory, violet, and amber.</desc>
+  <defs>
+    <linearGradient id="photo-veil" x1="505" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0B0D"/>
+      <stop offset="0.55" stop-color="#0B0B0D" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#0B0B0D" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @font-face { font-family: "Space Grotesk"; src: url("../../fonts/SpaceGrotesk-Variable.woff2") format("woff2"); font-weight: 300 700; }
+      @font-face { font-family: "Inter"; src: url("../../fonts/Inter-Variable-Latin.woff2") format("woff2"); font-weight: 100 900; }
+      @font-face { font-family: "IBM Plex Mono"; src: url("../../fonts/IBMPlexMono-Medium-Latin.woff2") format("woff2"); font-weight: 500; }
+    </style>
+  </defs>
+  <rect width="1200" height="630" fill="#0B0B0D"/>
+  <svg x="505" y="0" width="695" height="630" viewBox="288.667 0 899.619 816" preserveAspectRatio="none" aria-hidden="true">
+    <image href="../hero/eteriomn-signal-core.webp" x="0" y="0" width="1312" height="816"/>
+  </svg>
+  <rect x="505" width="695" height="630" fill="url(#photo-veil)"/>
+  <path d="M78 154h144M78 493h1044" stroke="#2A2930"/>
+  <path d="M78 154h144" stroke="#6757D9" stroke-width="2"/>
+  <text x="78" y="112" fill="#A5A1A0" font-family="IBM Plex Mono, monospace" font-size="14" font-weight="500" letter-spacing="2.1">POLYMATH DIGITAL STUDIO / ECOSYSTEM LAB</text>
+  <text x="72" y="273" fill="#F3F0E8" font-family="Space Grotesk, Avenir Next, Arial, sans-serif" font-size="76" font-weight="650" letter-spacing="8.36">ETERIOMN</text>
+  <text x="78" y="356" fill="#F3F0E8" font-family="Space Grotesk, Avenir Next, Arial, sans-serif" font-size="42" font-weight="500">The work between fields.</text>
+  <text x="78" y="409" fill="#A5A1A0" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="400">Technology / Creative / Media / Marketing / IP support</text>
+  <text x="78" y="551" fill="#A5A1A0" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="500" letter-spacing="1.6">A SHARED POINT OF VIEW / 05 WORLDS</text>
+  <text x="1122" y="551" text-anchor="end" fill="#D8A45B" font-family="IBM Plex Mono, monospace" font-size="12" font-weight="500" letter-spacing="1.6">ETERIOMN / 001</text>
+</svg>
