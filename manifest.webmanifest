@@ -1,0 +1,18 @@
+{
+  "name": "ETERIOMN — Polymath Digital Studio",
+  "short_name": "ETERIOMN",
+  "description": "A connected digital studio and ecosystem lab.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0B0B0D",
+  "theme_color": "#0B0B0D",
+  "icons": [
+    {
+      "src": "/assets/images/brand/eteriomn-wordmark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

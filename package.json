@@ -1,0 +1,21 @@
+{
+  "name": "eteriomn-static-studio",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A framework-free, static digital studio website for ETERIOMN.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "npm run build && node scripts/dev-server.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "npm run build && node scripts/dev-server.mjs --root dist",
+    "validate": "node scripts/validate.mjs all",
+    "check:routes": "node scripts/validate.mjs routes",
+    "check:assets": "node scripts/validate.mjs assets",
+    "check:links": "node scripts/validate.mjs links",
+    "check:html": "node scripts/validate.mjs html",
+    "test": "node --test tests"
+  }
+}

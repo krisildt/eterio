@@ -1,0 +1,20 @@
+/* The generated document starts in its enhanced layout to avoid a mobile header jump.
+   This small stylesheet is loaded only when scripts are disabled and restores the
+   existing navigable, non-dialog header state. */
+html.js-ready .nav-service-toggle { display: none; }
+
+@media (max-width: 1000px) {
+  html.js-ready .header-inner { grid-template-columns: 1fr auto; align-items: center; }
+  html.js-ready .primary-nav {
+    display: flex;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.1rem 1.2rem;
+    padding-bottom: 0.7rem;
+  }
+  html.js-ready .header-actions { grid-column: 2; grid-row: 1; }
+  html.js-ready .header-contact { display: none; }
+  html.js-ready .mobile-menu-toggle { display: none; }
+}
